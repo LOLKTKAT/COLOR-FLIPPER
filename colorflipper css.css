@@ -1,0 +1,38 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #ffffff;
+}
+
+.the-container {
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.thebox {
+    background-color: #676767;
+    height: 100px;
+    width: 339px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thebox h1 {
+    color: white;
+}
+.btn {
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1.7px solid black;
+    background-color: white;
+    color: #676767;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+}
